@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Delhi NCR Web Design</title>
+    <meta name="robots" content="noindex, nofollow">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style> body { padding-top: 80px; padding-bottom: 70px; } </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-20 flex items-center justify-between px-4 md:px-12">
+        <div class="flex items-center space-x-2">
+            <a href="index.html" id="brand-logo" class="text-xl md:text-2xl font-black text-blue-600 tracking-tight">Delhi NCR Web Design</a>
+        </div>
+        <nav class="hidden lg:flex space-x-6 font-medium text-gray-700 text-sm">
+            <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+            <a href="about.html" class="hover:text-blue-600 transition">About Us</a>
+            <a href="services.html" class="hover:text-blue-600 transition">Services</a>
+            <a href="blog.html" class="hover:text-blue-600 transition">Blog</a>
+            <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-3">
+            <a href="tel:9871230826" class="hidden sm:inline-flex items-center bg-blue-50 text-blue-600 px-3 py-2 rounded-lg font-bold text-xs md:text-sm border border-blue-200">
+                <i class="fa-solid fa-phone mr-1.5"></i> <span class="nav-phone">9871230826</span>
+            </a>
+            <a href="https://wa.me/919871230826?text=Hi,%20I%20submitted%20the%20enquiry%20form" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg font-bold text-xs md:text-sm flex items-center shadow">
+                <i class="fa-brands fa-whatsapp text-base mr-1"></i> WhatsApp
+            </a>
+        </div>
+    </header>
+    <section class="py-20 px-4 max-w-2xl mx-auto text-center">
+        <div class="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
+            <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-4xl mx-auto mb-6">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h1 class="text-3xl font-extrabold text-gray-900 mb-4">Thank You!</h1>
+            <p class="text-gray-600 mb-8">Aapka message successfully mil gaya hai. Hamari team aapse jald hi call ya WhatsApp par contact karegi.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="index.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-xl shadow transition">Back to Home</a>
+                <a href="https://wa.me/919871230826?text=Hi,%20I%20just%20submitted%20my%20enquiry%20on%20website" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-xl shadow transition flex items-center justify-center">
+                    <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="fixed bottom-0 left-0 w-full bg-gray-900 text-gray-300 py-3 px-4 z-50 shadow-inner flex flex-col md:flex-row items-center justify-between text-xs sm:text-sm">
+        <div class="text-center md:text-left mb-1 md:mb-0">
+            &copy; 2026 <span class="brand-name">Delhi NCR Web Design</span>. All Rights Reserved.
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 md:gap-4 my-1 md:my-0 text-gray-400">
+            <a href="index.html" class="hover:text-yellow-400">Home</a>
+            <a href="about.html" class="hover:text-yellow-400">About</a>
+            <a href="services.html" class="hover:text-yellow-400">Services</a>
+            <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+            <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+            <a href="terms.html" class="hover:text-yellow-400">Terms</a>
+            <a href="disclaimer.html" class="hover:text-yellow-400">Disclaimer</a>
+            <a href="sitemap.xml" class="hover:text-yellow-400">Sitemap</a>
+        </div>
+        <div class="text-center md:text-right">
+            Call/WhatsApp: <strong class="text-yellow-400 nav-phone">9871230826</strong>
+        </div>
+    </footer>
+    <script src="config.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.brand-name').forEach(el => el.textContent = SITE_CONFIG.businessName);
+            document.querySelectorAll('.nav-phone').forEach(el => el.textContent = SITE_CONFIG.phone);
+            const logoEl = document.getElementById('brand-logo');
+            if(logoEl) logoEl.textContent = SITE_CONFIG.businessName;
+        });
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 const SITE_CONFIG = {
     businessName: "Delhi NCR Web Design",
     tagline: "Professional Websites for Just ₹999!",
-    phone: "9871230826",
+    phone: "+91 9871230826",
     whatsappNumber: "919871230826",
     email: "support@delhincrwebdesign.site",
     websiteUrl: "https://delhincrwebdesign.site",
@@ -10,17 +10,17 @@ const SITE_CONFIG = {
         {
             name: "Rajesh Sharma",
             business: "Manufacturing Unit, Ghaziabad",
-            text: "₹999 me itni shandar website milna unbelievable tha! Hamare business ko online laane ke liye thank you."
+            text: "Getting a complete professional website for just ₹999 was unbelievable! Highly recommended for all local business owners."
         },
         {
             name: "Amit Gupta",
             business: "Retail Store Owner",
-            text: "Website ka layout mobile friendly hai aur WhatsApp integration se direct enquiries aane lagi hain."
+            text: "The website layout is completely mobile-friendly. Direct WhatsApp integration has significantly increased customer inquiries."
         },
         {
             name: "Pooja Verma",
             business: "Consultancy Services",
-            text: "Super fast delivery aur professional design. Highly recommended for startups!"
+            text: "Super fast delivery, elegant design, and top-notch support. Perfect web development solution for startups."
         }
     ],
     blogPosts: [
@@ -29,7 +29,7 @@ const SITE_CONFIG = {
             title: "Why Every Small Business Needs a Website in 2026",
             date: "October 15, 2026",
             excerpt: "Discover why relying solely on social media is limiting your growth and how a dedicated website builds instant credibility.",
-            content: "In today's digital era, customers look for businesses online before making a purchase. If your competitors have a website and you only have a social media page, you are losing valuable trust and clients. A professional website acts as your 24/7 digital storefront, showcasing your products and services clearly."
+            content: "In today's digital era, customers look for businesses online before making a purchase. If your competitors have a website and you only have a social media page, you are losing valuable trust and potential clients. A professional website acts as your 24/7 digital storefront, showcasing your products and services clearly."
         },
         {
             slug: "how-to-get-website-for-999-rupees",

@@ -3,9 +3,9 @@ const SITE_CONFIG = {
     tagline: "Professional Websites for Just ₹999!",
     phone: "+91 9871230826",
     whatsappNumber: "919871230826",
-    email: "support@delhincrwebdesign.site",
-    websiteUrl: "https://delhincrwebdesign.site",
-    web3formsApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE",
+    email: "truegainmedia@gmail.com",
+    websiteUrl: "",
+    web3formsApiKey: "d8d56d90-f026-47a7-9b43-34400d0e2014",
     testimonials: [
         {
             name: "Rajesh Sharma",

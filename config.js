@@ -5,7 +5,7 @@ const SITE_CONFIG = {
     whatsappNumber: "919871230826",
     email: "truegainmedia@gmail.com",
     websiteUrl: "",
-    web3formsApiKey: "d8d56d90-f026-47a7-9b43-34400d0e2014",
+    web3formsApiKey: "c3811f26-9ae9-4014-8d03-90b3b62ddf50",
     testimonials: [
         {
             name: "Rajesh Sharma",
